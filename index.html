@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="ru">
     <head>
+        <meta charset="utf-8">
         <link rel="stylesheet" href="style.css">
         <link rel="stylesheet"  href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.css">
     </head>
@@ -54,13 +55,7 @@
                     </div>
                 </div>
                 <div class="product__basket">
-                    <div class="product__basket__minus">
-                        <button class="button__basket__custom lessen" >-</button>
-                    </div>
-                    <div class="product__basket__count">1</div>
-                    <div class="product__basket__plus">
-                        <button class="button__basket__custom increase">+</button>
-                    </div>
+                    <input id="number" class="product__basket__count" type="number" count="1" min="1">
                 </div>
                 <div class="product__actions">
                     <button class="button__custom button__blue">КУПИТЬ</button>

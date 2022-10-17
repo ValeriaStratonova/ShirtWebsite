@@ -30,10 +30,6 @@
     box-sizing: border-box;
     }
 
-body {
-
-}
-
 .product {
     display: flex;
     flex-direction: row;
@@ -182,10 +178,8 @@ body {
 .product__basket {
     display: flex;
     flex-direction: row;
-    width: 190px;
-    background-color: aquamarine;
+    width: 80px;
     margin-top: 30px;
-    border: 2px solid #dcdcdc;
 }
 
 .button__basket__custom {
@@ -203,8 +197,6 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    border-top: none;
-    border-bottom: none;
     font-family: "Circe-Regular", sans-serif;
     font-size: 20px;
 }
